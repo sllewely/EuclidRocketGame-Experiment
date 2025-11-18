@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class UnderWorldCameraBehavior : MonoBehaviour
 {
-    public float scale = .1f;
+    public float scale = .01f;
     
     
     
