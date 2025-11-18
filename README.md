@@ -2,10 +2,14 @@
 
 In Unity 6
 
-<img width="354" height="544" alt="image" src="https://github.com/user-attachments/assets/c85d32f8-219d-49d0-ad8f-d2e7e19ea2b1" />
+<img width="1076" height="547" alt="image" src="https://github.com/user-attachments/assets/5298f0b1-302e-4017-9644-bc59981c6005" />
+
 
 This demo has three cameras for the near (cellphone), middle (area the player can walk around), and far distance (objects appearing huge in the distance, but represented with small models).
 
+---
+
+<img width="354" height="544" alt="image" src="https://github.com/user-attachments/assets/c85d32f8-219d-49d0-ad8f-d2e7e19ea2b1" />
 
 ## top world
 
