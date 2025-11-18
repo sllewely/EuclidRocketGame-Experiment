@@ -44,6 +44,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool canMove = true;
 
+    public UnderWorldCameraBehavior underworldCamera;
+
 
 
     void Start()
@@ -55,6 +57,11 @@ public class PlayerMovement : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
 
         Cursor.visible = false;
+
+        if (!underworldCamera)
+        {
+            Debug.LogError("No Underworld Camera found");
+        }
 
     }
 
@@ -155,6 +162,8 @@ public class PlayerMovement : MonoBehaviour
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
 
         }
+        
+        underworldCamera.MoveCamera(playerCamera.transform);
 
     }
 
